@@ -1,0 +1,6 @@
+[build-info]
+	date = 2022-09-04T01:54:32+0000
+	user = android-build
+	uname = "Linux polygon-bot-2 4.4.0-124-generic #148~14.04.1-Ubuntu SMP Thu May 3 07:26:53 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux"
+	modem = 032d1189facd0e62a93ac24ca145f171fbbff611
+	config = 7d32e04e1f10286f8b9c6680bce7615286bd5f75
