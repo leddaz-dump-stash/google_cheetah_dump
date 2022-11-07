@@ -1,0 +1,5 @@
+(allow permissioncontroller_app proc_vendor_sched (dir (ioctl read getattr lock open watch watch_reads search)))
+(allow permissioncontroller_app proc_vendor_sched (file (write lock append map open)))
+(allow radio uce_service (service_manager (add find)))
+(neverallow base_typeattr_518 uce_service (service_manager (add)))
+
