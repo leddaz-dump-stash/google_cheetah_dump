@@ -1,0 +1,13 @@
+#line 1 "hardware/google/pixel-sepolicy/common/system_ext/property_contexts"
+ro.chipname             u:object_r:deprecated_soc_prop:s0 exact string
+ro.hardware.chipname    u:object_r:deprecated_soc_prop:s0 exact string
+ro.mediatek.platform    u:object_r:deprecated_soc_prop:s0 exact string
+#line 1 "device/google/gs201-sepolicy/system_ext/private/property_contexts"
+# Fingerprint (UDFPS) GHBM/LHBM toggle
+persist.fingerprint.ghbm    u:object_r:fingerprint_ghbm_prop:s0    exact    bool
+#line 1 "device/statix/sepolicy/common/private/property_contexts"
+# Recovery update
+persist.sys.update_recovery         u:object_r:recovery_update_prop:s0
+
+# Statix
+ro.statix.device                    u:object_r:build_prop:s0

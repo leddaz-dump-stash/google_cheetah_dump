@@ -1,0 +1,2 @@
+#line 1 "device/statix/sepolicy/common/private/service_contexts"
+pocket                                    u:object_r:pocket_service:s0

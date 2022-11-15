@@ -1,0 +1,6 @@
+/data/statix_updates(/.*)?           u:object_r:ota_package_file:s0
+/sys/kernel/pocket_judge(/.*)?	        u:object_r:pocket_judge_sysfs:s0
+/data/statix_updates/history.json    u:object_r:update_history_file:s0
+/system/bin/backuptool_ab\.sh                     u:object_r:otapreopt_chroot_exec:s0
+/system/bin/backuptool_ab\.functions              u:object_r:otapreopt_chroot_exec:s0
+/system/bin/backuptool_postinstall\.sh            u:object_r:otapreopt_chroot_exec:s0

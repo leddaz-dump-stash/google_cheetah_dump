@@ -1,0 +1,14 @@
+# cheetah-user 13 TD1A.221105.002 9104446 release-keys
+- manufacturer: google
+- platform: gs201
+- codename: cheetah
+- flavor: statix_cheetah-user
+- release: 13
+- id: TD1A.221105.001
+- incremental: eng.awadhe.20221115.121613
+- tags: test-keys
+- fingerprint: google/statix_cheetah/cheetah:13/TD1A.221105.001/awadhera11151214:user/test-keys
+- is_ab: true
+- brand: google
+- branch: cheetah-user-13-TD1A.221105.002-9104446-release-keys
+- repo: google_cheetah_dump
