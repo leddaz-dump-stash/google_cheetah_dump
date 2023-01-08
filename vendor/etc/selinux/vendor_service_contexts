@@ -1,0 +1,29 @@
+#line 1 "vendor/google/biometrics/face/tuscany_new/assets/sepolicy/service_contexts"
+com.google.face.debug.IDebugHost/default              u:object_r:hal_face_debug_service:s0
+#line 1 "device/google/gs201-sepolicy/widevine/service_contexts"
+android.hardware.drm.IDrmFactory/widevine    u:object_r:hal_drm_service:s0
+#line 1 "device/google/gs101-sepolicy/edgetpu/service_contexts"
+# EdgeTPU service
+com.google.edgetpu.IEdgeTpuAppService/default              u:object_r:edgetpu_app_service:s0
+com.google.edgetpu.IEdgeTpuVendorService/default           u:object_r:edgetpu_vendor_service:s0
+
+# TPU NNAPI Service
+android.hardware.neuralnetworks.IDevice/google-edgetpu	   u:object_r:edgetpu_nnapi_service:s0
+
+#line 1 "hardware/google/pixel-sepolicy/vibrator/common/service_contexts"
+android.hardware.vibrator.IVibrator/dual                             u:object_r:hal_vibrator_service:s0
+#line 1 "hardware/google/pixel-sepolicy/input/service_contexts"
+com.google.input.ITouchContextService/default              u:object_r:touch_context_service:s0
+#line 1 "device/google/gs201-sepolicy/whitechapel_pro/service_contexts"
+com.google.hardware.pixel.display.IDisplay/default         u:object_r:hal_pixel_display_service:s0
+hardware.qorvo.uwb.IUwbVendor/default                      u:object_r:hal_uwb_vendor_service:s0
+#line 1 "device/google/gs201-sepolicy/dauntless/service_contexts"
+android.hardware.security.keymint.IKeyMintDevice/strongbox      u:object_r:hal_keymint_service:s0
+android.hardware.security.sharedsecret.ISharedSecret/strongbox  u:object_r:hal_sharedsecret_service:s0
+android.hardware.security.keymint.IRemotelyProvisionedComponent/strongbox  u:object_r:hal_remotelyprovisionedcomponent_service:s0
+#line 1 "hardware/google/pixel-sepolicy/powerstats/service_contexts"
+power.stats-vendor    u:object_r:hal_power_stats_vendor_service:s0
+#line 1 "system/sepolicy/reqd_mask/service_contexts"
+# empty service_contexts file - this file is used to generate an empty
+# non-platform service_context for devices without any service_contexts
+# customizations.

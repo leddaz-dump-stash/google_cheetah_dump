@@ -1,0 +1,14 @@
+# cheetah-user 13 TD1A.220804.009.A2 8940162 release-keys
+- manufacturer: google
+- platform: gs201
+- codename: cheetah
+- flavor: cheetah-user
+- release: 13
+- id: TD1A.220804.009.A2
+- incremental: 8940162
+- tags: release-keys
+- fingerprint: google/cheetah/cheetah:13/TD1A.220804.009.A2/8940162:user/release-keys
+- is_ab: true
+- brand: google
+- branch: cheetah-user-13-TD1A.220804.009.A2-8940162-release-keys
+- repo: google_cheetah_dump
