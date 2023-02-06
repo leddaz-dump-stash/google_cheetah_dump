@@ -1,0 +1,2 @@
+[+] Version string: Linux version 5.10.107-android13-4-00020-g02b5dfab573c-ab9358130 (
+[!] The architecture of your kernel could not be guessed successfully. Please specify the --bit-size argument manually (use --help for its precise specification).
