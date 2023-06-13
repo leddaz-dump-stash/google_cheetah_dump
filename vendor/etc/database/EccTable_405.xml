@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EccTable>
+    <!-- #R stands for retail -->
+    <EccEntry mnc="#R" number="112" category="0" condition="00000001" />
+    <EccEntry mnc="#R" number="911" category="0" condition="00000001" />
+    <EccEntry mnc="#R" number="100" category="0" condition="10010000" />
+    <EccEntry mnc="#R" number="101" category="0" condition="10010000" />
+    <EccEntry mnc="#R" number="102" category="0" condition="10010000" />
+    <EccEntry mnc="#R" number="103" category="0" condition="00010000" />
+    <EccEntry mnc="#R" number="108" category="0" condition="10010000" />
+    <EccEntry mnc="#R" number="1298" category="0" condition="00010000" />
+    <EccEntry mnc="#R" number="2611" category="0" condition="00010000" />
+</EccTable>
