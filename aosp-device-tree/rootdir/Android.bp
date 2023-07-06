@@ -1,0 +1,66 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init scripts
+sh_binary {
+    name: "disable_contaminant_detection.sh",
+    src: "bin/disable_contaminant_detection.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.insmod.sh",
+    src: "bin/init.insmod.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.radio.sh",
+    src: "bin/init.radio.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.uwb.calib.sh",
+    src: "bin/init.uwb.calib.sh",
+    vendor: true,
+}
+
+// Init configuration files
+prebuilt_etc {
+    name: "init.cheetah.rc",
+    src: "etc/init.cheetah.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.gs201.rc",
+    src: "etc/init.gs201.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.gs201.usb.rc",
+    src: "etc/init.gs201.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.pantah.rc",
+    src: "etc/init.pantah.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+// fstab
+prebuilt_etc {
+    name: "fstab.gs201",
+    src: "etc/fstab.gs201",
+    vendor: true,
+}
