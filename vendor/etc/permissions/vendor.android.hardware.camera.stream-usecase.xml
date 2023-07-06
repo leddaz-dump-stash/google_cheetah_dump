@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is to certify that the camera device is ready to support stream usecase API withoug bugs.
+     This property should be removed once we guarantee all the in-market devices can support the API correctly -->
+<permissions>
+    <feature name="vendor.android.hardware.camera.stream-usecase" />
+</permissions>
