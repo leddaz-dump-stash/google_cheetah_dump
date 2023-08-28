@@ -1,0 +1,18 @@
+#line 1 "hardware/google/pixel-sepolicy/common/system_ext/property_contexts"
+ro.chipname             u:object_r:deprecated_soc_prop:s0 exact string
+ro.hardware.chipname    u:object_r:deprecated_soc_prop:s0 exact string
+ro.mediatek.platform    u:object_r:deprecated_soc_prop:s0 exact string
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/gen/newline"
+
+#line 1 "hardware/google/pixel-sepolicy/sota_app/system_ext/property_contexts"
+ro.boot.sota                                    u:object_r:sota_prop:s0
+ro.boot.sota.                                   u:object_r:sota_prop:s0
+persist.vendor.factoryota.                      u:object_r:sota_prop:s0
+persist.vendor.radio.bootwithlpm                u:object_r:sota_prop:s0
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/gen/newline"
+
+#line 1 "device/google/gs201-sepolicy/system_ext/private/property_contexts"
+# Fingerprint (UDFPS) GHBM/LHBM toggle
+persist.fingerprint.ghbm    u:object_r:fingerprint_ghbm_prop:s0    exact    bool
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/gen/newline"
+

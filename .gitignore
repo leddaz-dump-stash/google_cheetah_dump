@@ -1,0 +1,9 @@
+vendor/apex/com.google.pixel.camera.hal.apex
+product/app/Photos/Photos.apk
+product/app/PrebuiltGmail/PrebuiltGmail.apk
+product/app/YouTube/YouTube.apk
+product/priv-app/GoogleCamera/GoogleCamera.apk
+product/priv-app/GoogleCamera/GoogleCamera.apk.xz
+product/priv-app/PrebuiltBugle/PrebuiltBugle.apk
+product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk
+product/priv-app/Velvet/Velvet.apk
