@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- System packages to preinstall GMS debug devices for camera, per user type.
+     Documentation at frameworks/base/data/etc/preinstalled-packages-platform.xml
+-->
+<config>
+    <!--  ImCapture (internal app)
+    TODO(b/259058897): Check if this should be preinstalled for SYSTEM user -->
+    <install-in-user-type package="com.google.android.apps.internal.gcam.dualcamcapture">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+    </install-in-user-type>
+</config>
