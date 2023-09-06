@@ -1,0 +1,4 @@
+ro.config.isolated_compilation_enabled=true
+ro.product.brand_for_attestation=
+ro.product.model_for_attestation=
+ro.product.name_for_attestation=
