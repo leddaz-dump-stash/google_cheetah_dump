@@ -1,0 +1,120 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init scripts
+sh_binary {
+    name: "dump_gsc.sh",
+    src: "bin/dump_gsc.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_modem.sh",
+    src: "bin/dump_modem.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_power_gs201.sh",
+    src: "bin/dump_power_gs201.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_storage.sh",
+    src: "bin/dump_storage.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_syna.sh",
+    src: "bin/dump_syna.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_thermal.sh",
+    src: "bin/dump_thermal.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_trusty.sh",
+    src: "bin/dump_trusty.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "disable_contaminant_detection.sh",
+    src: "bin/disable_contaminant_detection.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.display.sh",
+    src: "bin/init.display.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.radio.sh",
+    src: "bin/init.radio.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.uwb.calib.sh",
+    src: "bin/init.uwb.calib.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "insmod.sh",
+    src: "bin/insmod.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "ufs_firmware_update.sh",
+    src: "bin/ufs_firmware_update.sh",
+    vendor: true,
+}
+
+// Init configuration files
+prebuilt_etc {
+    name: "init.cheetah.rc",
+    src: "etc/init.cheetah.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.gs201.rc",
+    src: "etc/init.gs201.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.gs201.usb.rc",
+    src: "etc/init.gs201.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.pantah.rc",
+    src: "etc/init.pantah.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+// fstab
+prebuilt_etc {
+    name: "fstab.gs201",
+    src: "etc/fstab.gs201",
+    vendor: true,
+}

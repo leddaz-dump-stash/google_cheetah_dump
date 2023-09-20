@@ -1,0 +1,20 @@
+<manifest version="1.0" type="framework">
+    <hal format="aidl">
+        <name>com.google.pixel.camera.services.binder</name>
+        <version>1</version>
+        <interface>
+            <name>IServiceBinder</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>com.google.pixel.camera.services.lyricconfigprovider</name>
+        <version>1</version>
+        <fqname>ILyricConfigProvider/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>com.google.pixel.camera.services.cameraidremapper</name>
+        <version>1</version>
+        <fqname>ICameraIdRemapper/default</fqname>
+    </hal>
+</manifest>

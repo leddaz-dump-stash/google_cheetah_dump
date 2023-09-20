@@ -1,0 +1,7 @@
+(typeattributeset telephony_ril_prop_34_0 (telephony_ril_prop))
+(expandtypeattribute (telephony_ril_prop_34_0) true)
+(typeattribute telephony_ril_prop_34_0)
+(typeattributeset fingerprint_ghbm_prop_34_0 (fingerprint_ghbm_prop))
+(expandtypeattribute (fingerprint_ghbm_prop_34_0) true)
+(typeattribute fingerprint_ghbm_prop_34_0)
+
