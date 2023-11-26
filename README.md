@@ -1,0 +1,14 @@
+# cheetah_beta-user 14 AP11.231020.016.A1 11113945 release-keys
+- manufacturer: google
+- platform: gs201
+- codename: cheetah
+- flavor: cheetah_beta-user
+- release: 14
+- id: AP11.231020.016.A1
+- incremental: 11113945
+- tags: release-keys
+- fingerprint: google/cheetah_beta/cheetah:14/AP11.231020.016.A1/11113945:user/release-keys
+- is_ab: true
+- brand: google
+- branch: cheetah_beta-user-14-AP11.231020.016.A1-11113945-release-keys
+- repo: google_cheetah_dump

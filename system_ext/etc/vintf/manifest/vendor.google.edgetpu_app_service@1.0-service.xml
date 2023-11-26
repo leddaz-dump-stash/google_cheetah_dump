@@ -1,0 +1,11 @@
+<!--
+    Input:
+        vendor/google/darwinn2/aidl/vendor.google.edgetpu_app_service@1.0-service.xml
+-->
+<manifest version="7.0" type="framework">
+    <hal format="aidl">
+        <name>com.google.edgetpu</name>
+        <version>2</version>
+        <fqname>IEdgeTpuAppService/default</fqname>
+    </hal>
+</manifest>
