@@ -1,0 +1,10 @@
+<!--
+    Input:
+        frameworks/base/services/manifest_services.xml
+-->
+<manifest version="7.0" type="framework">
+    <hal format="aidl">
+        <name>android.frameworks.location.altitude</name>
+        <fqname>IAltitudeService/default</fqname>
+    </hal>
+</manifest>

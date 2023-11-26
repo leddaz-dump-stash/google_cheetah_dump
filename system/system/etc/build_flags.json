@@ -1,0 +1,32 @@
+{
+"flags": [
+  { "name": "RELEASE_ACONFIG_FLAG_DEFAULT_PERMISSION", "value": "READ_ONLY", "set": "vendor/google/release/build_config/ap11.bzl", "default": "READ_WRITE", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_ACONFIG_VALUE_SETS", "value": "//vendor/google/release/aconfig/ap11:aconfig_value_set-ap11", "set": "vendor/google/release/build_config/ap11.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_AIDL_USE_UNFROZEN", "value": "", "set": "vendor/google/release/build_config/ap11.bzl", "default": "true", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_AVF_ALLOW_PREINSTALLED_APPS", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_AVF_ENABLE_DEVICE_ASSIGNMENT", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_AVF_ENABLE_DICE_CHANGES", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_AVF_ENABLE_LLPVM_CHANGES", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_AVF_ENABLE_MULTI_TENANT_MICRODROID_VM", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_AVF_ENABLE_REMOTE_ATTESTATION", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_AVF_ENABLE_VENDOR_MODULES", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_BINDER_DEATH_RECIPIENT_WEAK_FROM_JNI", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", "value": "", "set": "vendor/google/release/build_config/ap11.bzl", "default": "true", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_DEPRECATE_VNDK", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_EXPOSE_FLAGGED_API", "value": "true", "set": "vendor/google/release/build_config/ap11.bzl", "default": "true", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", "value": "mainline_module_prebuilt_nightly", "set": "build/release/build_flags.bzl", "default": "mainline_module_prebuilt_nightly", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PACKAGE_SOUND_PICKER", "value": "SoundPicker", "set": "build/release/build_flags.bzl", "default": "SoundPicker", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PACKAGE_VIRTUAL_CAMERA", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PLATFORM_VERSION", "value": "AP11", "set": "vendor/google/release/build_config/ap11.bzl", "default": "VP1A", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PLATFORM_SECURITY_PATCH", "value": "2023-11-01", "set": "vendor/google/release/build_config/ap11.bzl", "default": "2023-12-05", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PLATFORM_SDK_VERSION", "value": "34", "set": "vendor/google/release/build_config/ap11.bzl", "default": "34", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PLATFORM_SDK_EXTENSION_VERSION", "value": "10", "set": "vendor/google/release/build_config/ap11.bzl", "default": "10", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PLATFORM_VERSION_CODENAME", "value": "REL", "set": "vendor/google/release/build_config/ap11.bzl", "default": "VanillaIceCream", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PLATFORM_VERSION_ALL_CODENAMES", "value": "REL", "set": "vendor/google/release/build_config/ap11.bzl", "default": "VanillaIceCream", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PLATFORM_VERSION_ALL_PREVIEW_CODENAMES", "value": "REL,VanillaIceCream", "set": "vendor/google/release/build_config/ap11.bzl", "default": "VanillaIceCream", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PLATFORM_VERSION_LAST_STABLE", "value": "14", "set": "vendor/google/release/build_config/ap11.bzl", "default": "14", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_PLATFORM_VNDK_VERSION", "value": "35", "set": "vendor/google/release/build_config/ap11.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_REMOVE_LEGACY_EMOJI_FONT", "value": "", "set": "build/release/build_flags.bzl", "default": "", "declared": "build/release/build_flags.bzl" },
+  { "name": "RELEASE_ENABLE_ANGLE_AS_DEFAULT_GLES_DRIVER_PIXEL", "value": "", "set": "vendor/google/release/build_flags.bzl", "default": "", "declared": "vendor/google/release/build_flags.bzl" }
+]
+}

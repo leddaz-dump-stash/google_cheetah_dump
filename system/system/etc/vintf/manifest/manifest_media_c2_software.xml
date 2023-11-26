@@ -1,0 +1,11 @@
+<!--
+    Input:
+        frameworks/av/media/mediaserver/manifest_media_c2_software.xml
+-->
+<manifest version="7.0" type="framework">
+    <hal format="hidl">
+        <name>android.hardware.media.c2</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::IComponentStore/software</fqname>
+    </hal>
+</manifest>
