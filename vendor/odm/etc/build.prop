@@ -1,0 +1,28 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.odm.brand=google
+ro.product.odm.device=cheetah
+ro.product.odm.manufacturer=Google
+ro.product.odm.model=Pixel 7 Pro
+ro.product.odm.name=cheetah_beta
+ro.product.name_for_attestation=cheetah
+ro.odm.build.date=Fri Nov 17 07:29:35 UTC 2023
+ro.odm.build.date.utc=1700206175
+ro.odm.build.fingerprint=google/cheetah_beta/cheetah:14/AP11.231020.016.A1/11113945:user/release-keys
+ro.odm.build.id=AP11.231020.016.A1
+ro.odm.build.tags=release-keys
+ro.odm.build.type=user
+ro.odm.build.version.incremental=11113945
+ro.odm.build.version.release=14
+ro.odm.build.version.release_or_codename=14
+ro.odm.build.version.sdk=34
+####################################
+# from variable ADDITIONAL_ODM_PROPERTIES
+####################################
+####################################
+# from variable PRODUCT_ODM_PROPERTIES
+####################################
+# end of file
+

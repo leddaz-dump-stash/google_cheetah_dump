@@ -1,0 +1,6 @@
+INFO: Removing HAL from the manifest because it is declaring V1 of a new unfrozen interface which is not allowed in this release configuration: com.google.edgetpu.tachyon
+<!--
+    Input:
+        vendor/google/darwinn2/tachyon/service/com.google.edgetpu.tachyon-service.xml
+-->
+<manifest version="7.0" type="device"/>

@@ -1,0 +1,11 @@
+<!--
+    Input:
+        system/chre/host/hal_generic/aidl/android.hardware.contexthub-service.generic.xml
+-->
+<manifest version="7.0" type="device">
+    <hal format="aidl">
+        <name>android.hardware.contexthub</name>
+        <version>2</version>
+        <fqname>IContextHub/default</fqname>
+    </hal>
+</manifest>
